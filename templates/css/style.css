@@ -1,0 +1,48 @@
+body {
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    background-color: #191C21;
+    color: snow;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    display: grid;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: bold;
+    color: snow;
+    font-family: 'Langar', cursive;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+input {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    color: rgb(28, 27, 31, 0.8);
+}
+
+input:hover {
+    background-color: lawngreen;
+}
